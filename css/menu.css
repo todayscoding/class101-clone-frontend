@@ -1,0 +1,20 @@
+.memu {
+  width: 100%;
+  list-style: none;
+  height: 40px;
+  padding: 5px 1px;
+  margin: 0;
+  background: burlywood;
+}
+
+.menu li {
+  float: left;
+  position: relative;
+  margin: 5px 30px;
+  padding: 0;
+}
+
+.menu div:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

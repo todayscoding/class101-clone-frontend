@@ -1,0 +1,27 @@
+.main {
+  margin-top: 10px;
+  background-color: teal;
+  width: 100vw;
+  height: 423px;
+  position: relative;
+}
+
+.one {
+  top: 40px;
+  left: var(--horizontal-space);
+  width: 660px;
+  height: 417px;
+  position: absolute;
+  margin-right: 0;
+}
+.two {
+  position: absolute;
+  bottom: -415px;
+  left: 1060px;
+  top: 60px;
+  height: 155px;
+  width: 290px;
+}
+.carousel-inner {
+  border-radius: 5px;
+}
