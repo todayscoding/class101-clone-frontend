@@ -1,5 +1,7 @@
 footer {
-  margin-top: 50px;
+  width: 1196px;
+  margin: 150px auto 55px auto;
+  overflow: hidden;
 }
 .rows {
   display: flex;
@@ -66,7 +68,7 @@ footer {
 }
 .btn-c {
   color: var(--gray);
-  font-size: 13.7px;
+  font-size: 12.5px;
 }
 .rows2 {
   padding-top: 40px;

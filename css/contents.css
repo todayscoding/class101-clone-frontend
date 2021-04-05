@@ -1,3 +1,16 @@
+#content {
+  width: 1196px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#content > #main_aside {
+  width: 340px;
+  float: left;
+}
+#content > #main_section {
+  width: 783px;
+  float: right;
+}
 .kakao_img {
   width: 27px;
   height: 27px;
@@ -32,7 +45,8 @@
 .aside-contents {
   margin-top: 50px;
 }
-.aside-contents h5 {
+.aside-contents h5,
+.section-contents h5 {
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -144,6 +158,135 @@
   margin-top: 4px;
   color: rgba(0, 0, 0, 0.3);
 }
-.section {
-  margin-left: 80px;
+.section-contents {
+  margin-top: 120px;
+}
+.none {
+  visibility: hidden;
+}
+.class-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+}
+.class-box .class-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 5px;
+}
+.class-box p {
+  font-size: 13px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.class-img {
+  width: 240px;
+  height: 177px;
+  border-radius: 5px;
+}
+.class-heart i,
+.class-heart span,
+.won {
+  font-weight: 600;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.class-heart i {
+  margin-right: 3px;
+}
+.won {
+  text-decoration: line-through;
+}
+.sale {
+  color: tomato;
+  margin-left: 3px;
+  font-weight: 600;
+  font-size: small;
+}
+.class-price {
+  font-size: 15px;
+  font-weight: 600;
+}
+.Installment {
+  font-size: 12px;
+  margin-left: 3px;
+}
+.class-date {
+  background-color: #f8f8f8;
+  padding: 0 5px;
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-bottom: 50px;
+}
+.class-date span {
+  font-size: 11px;
+  color: tomato;
+  font-weight: 700;
+}
+.class-code {
+  height: 40px;
+  background-color: #f8f8f8;
+  width: 100%;
+  border: none;
+  font-size: 14px;
+  border-radius: 3px;
+}
+.class-code i {
+  margin-right: 5px;
+}
+.class-code:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/*cursor*/
+.logo,
+.aside-title > *,
+.email,
+.level-box,
+.aside-contents__btn,
+.fa-info-circle,
+.class-box > * {
+  cursor: pointer;
+}
+.aside-contents__btn:hover {
+  text-decoration: underline;
+}
+
+.class-box__heart {
+  position: absolute;
+  font-size: 25px;
+  top: 15px;
+  left: 190px;
+  width: 35px;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+.class-box__heart-btn {
+  color: white;
+  visibility: visible;
+}
+.class-box__heart:hover {
+  visibility: visible;
+}
+.chat-bot {
+  width: 55px;
+  height: 55px;
+  background-color: #fd7e14;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1800px;
+  position: fixed;
+}
+.stamp-box__bar .fa-comment-alt {
+  position: absolute;
+  font-size: 100px;
 }

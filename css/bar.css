@@ -3,6 +3,8 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 95px;
+  width: 1196px;
+  margin: 20px auto 100px auto;
 }
 
 .bar:nth-child(2) {

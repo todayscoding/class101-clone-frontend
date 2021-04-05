@@ -26,8 +26,7 @@
     />
   </head>
   <body>
-    <div class="full">
-      <header>
+      <header id="main_header">
         <div class="bar__column">
           <div class="logo">
             <svg
@@ -87,8 +86,8 @@
           <i class="fas fa-chevron-down"></i>
         </div>
       </header>
-      <div class="contents">
-        <aside>
+      <div id="content">
+        <div id="main_aside">
           <div class="aside-title"><h2>진현서</h2><div class="kakao_img"><i class="fas fa-comment"></i></div></div>
           <span class="email">wlsgustj@hanmail.net</span><i class="fas fa-chevron-right gray-chev"></i>
           <div class="aside-contents">
@@ -139,6 +138,7 @@
               <div class="stamp-box__bar">
                 <span>7일간 연속 수강해서 총 10,000P 모아요</span>
                 <i class="fas fa-info-circle"></i>
+                <i class="fas fa-comment-alt"></i>
               </div>
               <p class="stamp-box__sub">오늘 수강하면 <span>500P</span> 적립! 7일 연속 수강 챌린지를 시작하세요</p>
               <ul class="stamp-box__stamps">
@@ -151,13 +151,27 @@
                 <li class="stamp-box__stamp"><div class="circle"></div><span>3000P</span></li>
               </div>
             </div>
+        </div>
+        <div id="main_section">
+          <div class="aside-title none"><h2>진현서</h2><div class="kakao_img"><i class="fas fa-comment"></i></div></div>
+          <span class="email none">wlsgustj@hanmail.net</span><i class="fas fa-chevron-right gray-chev none"></i>
+          <div class="aside-contents">
+            <h5>내가 본 상품</h5>
+            <div class="class-box">
+              <img class="class-img" size="50vw,300px"src="https://cdn.class101.net/images/c5656b58-14e5-4023-b575-a1236eaa223c"/><div class="class-box__heart"><i class="far fa-heart class-box__heart-btn"></i></div>
+              <span class="class-title">요리/음료 ・ 오흐 뒤 구떼</span>
+              <p>완판 구움과자 레시피의 모든 것! 서교<br>동 과자점 '오후뒤구떼'의 마들렌, 휘...</p>
+              <div class="class-heart"><i class="fas fa-heart"></i><span>493</span></div>
+              <div><span class="won">292,700원</span><span class="sale">35%</span></div>
+              <div><span class="class-price">월 37,900원</span><span class="Installment">(5개월)</span></div>
+              <div class="class-date"><span>6.11(금)부터 수강 가능</span></div>
+              <button class="class-code"type="button"><i class="fas fa-ticket-alt"></i>수강권 코드 등록하기</button>
+            </div>
           </div>
-        </aside>
-        <section><h1>dddd</h1></section>
+          
+        </div>
       </div>  
-    
-
-      <!-- <footer>
+      <footer>
         <div class="rows">
           <div class="row__first">
             <div class="logo">
@@ -269,8 +283,8 @@
             </div>
           </div>
         </div>
-      </footer> -->
-    <div>
+      </footer>
+      <div class="chat-bot"><i class="fas fa-comment-dots"></i></div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
       integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
