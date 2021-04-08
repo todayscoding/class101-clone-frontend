@@ -36,14 +36,14 @@ header {
   padding: 0px 15px;
 }
 
-input {
+.input input {
   border: none;
   background: none;
   outline: none;
   width: 100%;
   margin-right: 10px;
 }
-input::placeholder {
+.input input::placeholder {
   font-size: 14px;
 }
 .fa-search {

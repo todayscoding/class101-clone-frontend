@@ -275,6 +275,7 @@
 .class-box__heart:hover {
   visibility: visible;
 }
+
 .chat-bot {
   width: 55px;
   height: 55px;
@@ -283,10 +284,31 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 1800px;
   position: fixed;
+  left: 1810px;
+  top: 850px;
+}
+.chat-bot i {
+  font-size: 25px;
 }
 .stamp-box__bar .fa-comment-alt {
   position: absolute;
   font-size: 100px;
+}
+.stamp-box__bar-coment {
+  position: absolute;
+  padding: 10px;
+  background-color: black;
+  border-radius: 5px;
+  left: 650px;
+  bottom: -390px;
+  visibility: hidden;
+}
+.fa-info-circle:hover + .stamp-box__bar-coment {
+  visibility: visible;
+}
+.stamp-box__bar-coment p {
+  color: white;
+  font-size: 10px;
+  margin-bottom: 5px;
 }
